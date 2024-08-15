@@ -4,12 +4,12 @@ body {
   background: rgb(36, 46, 119);
   color: #fff;
   padding: 50px;
-  font: 22px/1.4 'Roboto', sans-serif;
+  font: 20px/1.4 'Roboto', sans-serif;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.4;
   margin: 0 0 10px;
 }
@@ -17,10 +17,12 @@ h2 {
 main {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .outerCard {
-  width: 25%;
+  width: 33.33%;
   padding: 0 15px;
   box-sizing: border-box;
 }
@@ -29,7 +31,7 @@ main {
   background: #fff;
   color: #333;
   border-radius: 5px;
-  padding: 30px;
+  padding: 25px;
 }
 
 img {

@@ -5,7 +5,7 @@
 
 const pets = [
   {
-    name: 'Joe',
+    name: 'Daisy',
     type: 'Dog',
     breed: 'Australian Shepherd',
     age: 5,
