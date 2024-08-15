@@ -45,3 +45,16 @@ img {
 p {
   margin: 0 0 5px;
 }
+
+@media only screen and (max-width: 1023px) {
+  .outerCard {
+    width: 50%;
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+  .outerCard {
+    width: 100%;
+  }
+}
